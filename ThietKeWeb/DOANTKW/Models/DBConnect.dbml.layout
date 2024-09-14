@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.75, 9.25" name="DBConnect">
+  <DataContextMoniker Name="/DBConnectDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0bdc6945-a2c5-44a4-872b-b003b0592b21" absoluteBounds="6.75, 7.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DBConnectDataContext/Banner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fcc43965-5173-4cff-b841-f65a5b2567b0" absoluteBounds="6.765, 8.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="264a209a-6002-44af-ab71-606479273a30" absoluteBounds="6.25, 1.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DBConnectDataContext/ChiTietDonHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f87d1ece-87f8-4ad2-b158-7fb69b860402" absoluteBounds="6.265, 1.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="71295e63-41d5-4e56-bffc-c8210fccc35c" absoluteBounds="3.5, 5.25, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DBConnectDataContext/DonHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a58d9fc9-3bb8-4b4f-9472-4bfbe66e0640" absoluteBounds="3.515, 5.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e8d276ad-5a3d-440b-8b76-3b33ecba9a72" absoluteBounds="0.75, 5, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DBConnectDataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f6bde91a-bab9-441c-8c5c-d92f0ab728f3" absoluteBounds="0.765, 5.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90ec23b7-48db-47ec-96f4-98050921bb40" absoluteBounds="0.75, 1.5, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/DBConnectDataContext/Loai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="167afb1b-4335-40ff-a1bd-655f85e7fcfb" absoluteBounds="0.765, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="13dd1db8-36f6-405c-b458-71fde530a821" absoluteBounds="6.75, 5.25, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/DBConnectDataContext/LoaiTin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="157f1d06-5696-4447-94cc-832ed380f2f9" absoluteBounds="6.765, 5.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b2e195bf-244d-40bc-ba40-36967b1d9dd6" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DBConnectDataContext/SanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6be4ab77-d809-46ab-95a1-45947fa46535" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="514a3f55-1325-499d-b22d-e4826165e764" absoluteBounds="9.5, 4.875, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DBConnectDataContext/TinTuc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ed1cae94-ddac-4cb0-8aa4-bf490b3888cf" absoluteBounds="9.515, 5.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 6.85984537760417); (6.46875 : 6.85984537760417); (6.46875 : 2.95359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBConnectDataContext/DonHang/DonHang_ChiTietDonHang" />
+      <nodes>
+        <classShapeMoniker Id="71295e63-41d5-4e56-bffc-c8210fccc35c" />
+        <classShapeMoniker Id="264a209a-6002-44af-ab71-606479273a30" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.23159912109375); (3.5 : 6.23159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBConnectDataContext/KhachHang/KhachHang_DonHang" />
+      <nodes>
+        <classShapeMoniker Id="e8d276ad-5a3d-440b-8b76-3b33ecba9a72" />
+        <classShapeMoniker Id="71295e63-41d5-4e56-bffc-c8210fccc35c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.16429768880208); (6.25 : 2.16429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBConnectDataContext/SanPham/SanPham_ChiTietDonHang" />
+      <nodes>
+        <classShapeMoniker Id="b2e195bf-244d-40bc-ba40-36967b1d9dd6" />
+        <classShapeMoniker Id="264a209a-6002-44af-ab71-606479273a30" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.19314697265625); (3.5 : 2.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBConnectDataContext/Loai/Loai_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="90ec23b7-48db-47ec-96f4-98050921bb40" />
+        <classShapeMoniker Id="b2e195bf-244d-40bc-ba40-36967b1d9dd6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 5.84699625651042); (9.5 : 5.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBConnectDataContext/LoaiTin/LoaiTin_TinTuc" />
+      <nodes>
+        <classShapeMoniker Id="13dd1db8-36f6-405c-b458-71fde530a821" />
+        <classShapeMoniker Id="514a3f55-1325-499d-b22d-e4826165e764" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

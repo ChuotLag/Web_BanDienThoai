@@ -1,0 +1,55 @@
+﻿@model DOANTKW.Models.KhachHang
+@{
+    ViewBag.Title = "DangKi";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+
+<h2>DangKi</h2>
+
+@using (Html.BeginForm("DangKi", "TaiKhoan", FormMethod.Post))
+{
+    @Html.ValidationSummary(true)
+
+    <div class="col">
+        <label for="HotenKH">Họ Tên:</label>
+        @Html.TextBoxFor(model => model.HoTen)
+        @Html.ValidationMessageFor(model => model.HoTen)
+    </div>
+    <div class="col">
+        <label for="DienThoai">Điện Thoại:</label>
+        @Html.TextBoxFor(model => model.DienThoai)
+        @Html.ValidationMessageFor(model => model.DienThoai)
+    </div>  
+    <div class="col">
+        <label for="TenND">Tên Đăng Nhập:</label>
+        @Html.TextBoxFor(model => model.TaiKhoan)
+        @Html.ValidationMessageFor(model => model.TaiKhoan)
+    </div>
+
+    <div class="col">
+        <label for="MatKhau">Mật Khẩu:</label>
+        @Html.PasswordFor(model => model.MatKhau)
+        @Html.ValidationMessageFor(model => model.MatKhau)
+    </div>
+
+
+
+    <div class="col">
+        <label for="Email">Email:</label>
+        @Html.TextBoxFor(model => model.Email)
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+
+    <div class="col">
+        <label for="DiaChi">Địa Chỉ:</label>
+        @Html.TextBoxFor(model => model.DiaChi)
+        @Html.ValidationMessageFor(model => model.DiaChi)
+    </div>
+
+    <input type="submit" value="Đăng Ký" />
+}
+
+<p>@ViewBag.Message</p>
+
+

@@ -1,0 +1,40 @@
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\DOANTKW.dll.config
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\DOANTKW.dll
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\DOANTKW.pdb
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Helpers.dll
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Razor.dll
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Webpages.dll
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Webpages.Razor.dll
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Razor.xml
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Webpages.xml
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Webpages.Razor.xml
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Helpers.xml
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\obj\Debug\DOANTKW.dll
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\obj\Debug\DOANTKW.pdb
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\obj\Debug\DOANTKW.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Mvc.dll
+C:\Users\Acer\Desktop\Projects\DOANTKW\DOANTKW\bin\System.Web.Mvc.xml
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\DOANTKW.dll.config
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\DOANTKW.dll
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\DOANTKW.pdb
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\Microsoft.Web.Infrastructure.dll
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.Helpers.dll
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.Mvc.dll
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.Razor.dll
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.WebPages.Deployment.dll
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.WebPages.dll
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.WebPages.Razor.dll
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.Helpers.xml
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.Mvc.xml
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.Razor.xml
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.WebPages.xml
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.WebPages.Deployment.xml
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\bin\System.Web.WebPages.Razor.xml
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\obj\Debug\DOANTKW.csproj.AssemblyReference.cache
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\obj\Debug\DOANTKW.csproj.CoreCompileInputs.cache
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\obj\Debug\DOANTKW.csproj.CopyComplete
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\obj\Debug\DOANTKW.dll
+D:\Hoc\Hoc\HK5\Lập Trình Web\DoAn\DOANTKW\DOANTKW\obj\Debug\DOANTKW.pdb

@@ -1,0 +1,75 @@
+﻿@model DOANTKW.Models.KhachHang
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+<h2>Đăng ký</h2>
+<form action="/TaiKhoan/DangKy" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <laple for="HoTen">Họ Tên</laple>
+            <input type="text"
+                   class="form-control"
+                   id="HoTen"
+                   name="HoTen"
+                   placeholder="Ho Ten" />
+        </div>
+        <div class="col-md-6">
+            <laple for="MatKhau">Mật khẩu</laple>
+            <input type="password"
+                   class="form-control"
+                   id="MatKhau"
+                   name="MatKhau"
+                   placeholder="Password" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <laple for="NgaySinh">Ngày Sinh</laple>
+            <input type="date"
+                   class="form-control"
+                   id="NgaySinh"
+                   name="NgaySinh"
+                   placeholder="Ngày Sinh" />
+        </div>
+        <div class="col-md-6">
+            <laple for="Email">Email</laple>
+            <input type="email"
+                   class="form-control"
+                   id="Email"
+                   name="Email"
+                   placeholder="Email" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <laple for="DienThoai">Điện Thoại</laple>
+            <input type="tel"
+                   class="form-control"
+                   id="DienThoai"
+                   name="DienThoai"
+                   placeholder="Điện Thoại" />
+        </div>
+        <div class="col-md-6">
+            <laple for="GioiTinh">Giới tính</laple>
+            <input type="text"
+                   class="form-control"
+                   id="GioiTinh"
+                   name="GioiTinh"
+                   placeholder="Giới tính" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <laple for="DiaChi">Địa chỉ</laple>
+            <input type="text"
+                   class="form-control"
+                   id="DiaChi"
+                   name="DiaChi"
+                   placeholder="Địa chỉ" />
+    </div>
+        <button type="submit" class="btn btn-Success">Đăng Ký</button>
+        <a href="/TaiKhoan" class="btn btn-danger">Hủy</a>
+</form>
+

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C92071DA-535D-400C-A860-5D5B5F48C497}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DOANTKW</RootNamespace>
+    <AssemblyName>DOANTKW</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.3.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.3.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Images\Acer1.JPG" />
+    <Content Include="Images\Acer2.JPG" />
+    <Content Include="Images\Acer3.JPG" />
+    <Content Include="Images\Apple1.JPG" />
+    <Content Include="Images\Apple2.JPG" />
+    <Content Include="Images\Apple3.JPG" />
+    <Content Include="Images\Asus1.JPG" />
+    <Content Include="Images\Asus2.JPG" />
+    <Content Include="Images\Asus3.JPG" />
+    <Content Include="Images\Asus4.JPG" />
+    <Content Include="Images\BackgroundMenu.gif" />
+    <Content Include="Images\Banner\Banner6.png" />
+    <Content Include="Images\Banner\Banner7.png" />
+    <Content Include="Images\Banner_bg.jpg" />
+    <Content Include="Images\Bphone1.JPG" />
+    <Content Include="Images\Bphone2.JPG" />
+    <Content Include="Images\Bphone3.JPG" />
+    <Content Include="Images\Cart.JPG" />
+    <Content Include="Images\CS1.JPG" />
+    <Content Include="Images\CS2.JPG" />
+    <Content Include="Images\CS3.JPG" />
+    <Content Include="Images\Dell5.jpg" />
+    <Content Include="Images\Dell1.JPG" />
+    <Content Include="Images\Dell2.JPG" />
+    <Content Include="Images\Dell3.JPG" />
+    <Content Include="Images\Dell4.JPG" />
+    <Content Include="Images\Dell6.JPG" />
+    <Content Include="Images\GalaxyA6.JPG" />
+    <Content Include="Images\GalaxyA9.JPG" />
+    <Content Include="Images\GalaxyJ5.JPG" />
+    <Content Include="Images\HP1.JPG" />
+    <Content Include="Images\HP2.JPG" />
+    <Content Include="Images\HP3.JPG" />
+    <Content Include="Images\Iphone4S.JPG" />
+    <Content Include="Images\Iphone5S.JPG" />
+    <Content Include="Images\Iphone6p.JPG" />
+    <Content Include="Images\Iphone7.jpg" />
+    <Content Include="Images\Iphone8p.JPG" />
+    <Content Include="Images\LGG7.JPG" />
+    <Content Include="Images\LGQ9.jpg" />
+    <Content Include="Images\Loa1.JPG" />
+    <Content Include="Images\Loa2.JPG" />
+    <Content Include="Images\Loa3.JPG" />
+    <Content Include="Images\LogoFpt.png" />
+    <Content Include="Images\logo_dienthoaicom.png" />
+    <Content Include="Images\Lenovo1.JPG" />
+    <Content Include="Images\Lenovo2.JPG" />
+    <Content Include="Images\Lenovo3.JPG" />
+    <Content Include="Images\Lenovo4.JPG" />
+    <Content Include="Images\Menu_bg.jpg" />
+    <Content Include="Images\MotoE5.JPG" />
+    <Content Include="Images\MotoG7.JPG" />
+    <Content Include="Images\MotoP30.JPG" />
+    <Content Include="Images\N6030.JPG" />
+    <Content Include="Images\N6200.jpg" />
+    <Content Include="Images\N6300.JPG" />
+    <Content Include="Images\N70.JPG" />
+    <Content Include="Images\N72.JPG" />
+    <Content Include="Images\OppoA7.JPG" />
+    <Content Include="Images\OppoF7.JPG" />
+    <Content Include="Images\OppoR17.JPG" />
+    <Content Include="Images\QC.JPG" />
+    <Content Include="Images\SDP1.JPG" />
+    <Content Include="Images\SDP2.JPG" />
+    <Content Include="Images\Search.PNG" />
+    <Content Include="Images\ip14.jpg" />
+    <Content Include="Images\ip14prm.jpg" />
+    <Content Include="Images\ip15.jpeg" />
+    <Content Include="Images\ip15prm.jpg" />
+    <Content Include="Images\sat1.jpg" />
+    <Content Include="Images\ssa05.jpg" />
+    <Content Include="Images\ssa32.jpg" />
+    <Content Include="Images\ssgs23u.jpg" />
+    <Content Include="Images\TN1.JPG" />
+    <Content Include="Images\TN2.JPG" />
+    <Content Include="Images\TN3.JPG" />
+    <Content Include="Images\TN4.JPG" />
+    <Content Include="Models\DBConnect.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DBConnect.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="Images\App&amp;Game\AG1.JPG" />
+    <Content Include="Images\App&amp;Game\AG2.JPG" />
+    <Content Include="Images\Banner\Banner1.JPG" />
+    <Content Include="Images\Banner\Banner2.JPG" />
+    <Content Include="Images\Banner\Banner3.JPG" />
+    <Content Include="Images\Banner\Banner4.JPG" />
+    <Content Include="Images\Banner\Banner5.JPG" />
+    <Content Include="Images\ForGame\FG1.JPG" />
+    <Content Include="Images\ForGame\FG2.JPG" />
+    <Content Include="Images\ForGame\FG3.JPG" />
+    <Content Include="Images\KhuyenMai\KM1.JPG" />
+    <Content Include="Images\KhuyenMai\KM2.JPG" />
+    <Content Include="Images\KhuyenMai\KM3.JPG" />
+    <Content Include="Images\KhuyenMai\KM4.JPG" />
+    <Content Include="Images\KhuyenMai\KM5.JPG" />
+    <Content Include="Images\ThuThuat\TT1.JPG" />
+    <Content Include="Images\ThuThuat\TT2.JPG" />
+    <Content Include="Images\ThuThuat\TT3.JPG" />
+    <Content Include="Images\TinMoi\TinMoi1.JPG" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DienThoaiController.cs" />
+    <Compile Include="Controllers\GioHangController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LapTopController.cs" />
+    <Compile Include="Controllers\PhuKienController.cs" />
+    <Compile Include="Controllers\SanPhamController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DBConnect.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBConnect.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DienThoai.cs" />
+    <Compile Include="Models\GioHang.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Views\Shared\UserLayout.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\DienThoai\GetDienThoai.cshtml" />
+    <Content Include="Views\LapTop\GetLapTop.cshtml" />
+    <Content Include="Views\PhuKien\GetPhuKien.cshtml" />
+    <Content Include="Views\SanPham\Search.cshtml" />
+    <Content Include="Views\SanPham\Detail.cshtml" />
+    <Content Include="Views\Home\DangKy.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\GioHang\GioHang.cshtml" />
+    <Content Include="Views\GioHang\PartialGioHang.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\DBConnect.dbml.layout">
+      <DependentUpon>DBConnect.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6070</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6070/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

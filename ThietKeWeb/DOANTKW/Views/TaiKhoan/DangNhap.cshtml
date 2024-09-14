@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+<h2>DangNhap</h2>
+
+
+@using (Html.BeginForm("DangNhap", "TaiKhoan", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col 6">
+            <label for="TenDN">Tên Đăng Nhập:</label>
+            <input type="text" name="TenDN" />
+            @Html.ValidationMessage("Loi1")
+        </div>
+    </div>
+
+    <div>
+        <label for="MatKhau">Mật Khẩu:</label>
+        <input type="password" name="MatKhau" />
+        @Html.ValidationMessage("Loi2")
+    </div>
+
+    <input type="submit" value="Đăng Nhập" />
+}

@@ -1,0 +1,278 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Trang Bán Hàng</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+<body>
+
+    <section id="sale" class="container my-4 bg-danger text-light text-center py-3">
+        <h2 class="display-4 font-weight-bold">Sale</h2>
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <!-- Sản phẩm 1 -->
+                <div class="card bg-dark text-white">
+                    <a href="/DienThoai/GetDienThoai" class="text-decoration-none text-dark">
+                        <img src="\Images\ip15prm.jpg" class="card-img-top" alt="Images\images\img_sp\1">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Iphone 15 Pro Max</h5>
+                            <p class="card-text">
+                                <del>Giá cũ: $36.990.000</del><br>
+                                Giá mới: $35.490.000
+                            </p>
+                        </div>
+</div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <!-- Sản phẩm 2 -->
+                <div class="card bg-dark text-white">
+                    <img src="\Images\ssa05.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SamSung Galaxy A05s </h5>
+                        <p class="card-text">
+                            <del>Giá cũ: $8.990.000</del><br>
+                            Giá mới: $4.990.000
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <!-- Sản phẩm 3 -->
+                <div class="card bg-dark text-white">
+                    <img src="\Images\ip15.jpeg" class="card-img-top" alt="Hình ảnh sản phẩm 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Iphone 15</h5>
+                        <p class="card-text">
+                            <del>Giá cũ: $23.990.000</del><br>
+                            Giá mới: $20.990.000
+                        </p>
+                    </div>
+                </div>
+            </div><div class="col-md-3 mb-4">
+                <!-- Sản phẩm 4 -->
+                <div class="card bg-dark text-white">
+                    <img src="\Images\ip14prm.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Iphone 14 Pro Max</h5>
+                        <p class="card-text">
+                            <del>Giá cũ: $33.490.000</del><br>
+                            Giá mới: $20.190.000
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nội dung phần Sale -->
+    </section>
+    <section id="dienthoai" class="container my-4">
+        <h2>Điện Thoại</h2>
+        <p>Các sản phẩm điện thoại mới nhất.</p>
+
+        <div class="row">
+            <!-- Hàng 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\ip15prm.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Iphon 15</h5>
+                        <p class="card-text">Giá: $35.490.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\ip15.jpeg" class="card-img-top" alt="Hình ảnh sản phẩm 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Iphon 15</h5>
+                        <p class="card-text">Giá: $20.990.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\ssa05.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SamSung Galaxy A05s</h5>
+                        <p class="card-text">Giá: $4.990.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\ip14prm.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Iphon 14 Pro Max</h5>
+                        <p class="card-text">Giá: $20.190.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hàng 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\images\img_sp\4.jpeg" class="card-img-top" alt="Hình ảnh sản phẩm 1 ">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SS Galaxy ZFlip 5</h5>
+                        <p class="card-text">Giá: $15.990.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\images\img_sp\6.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SamSung Galaxy A24</h5>
+                        <p class="card-text">Giá: $5.990.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\images\img_sp\7.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SamSung Galaxy A24</h5>
+                        <p class="card-text">Giá: $4.690.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\images\img_sp\8.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SamSung Galaxy A24</h5>
+                        <p class="card-text">Giá: $10.590.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="phukien" class="container my-4">
+        <h2>Phụ Kiện</h2>
+        <p>Các phụ kiện điện thoại phong cách.</p>
+        <div class="row">
+            <!-- Hàng 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\images\phukien\pk1.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 1" style="height:250px">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">ốp lưng Iphone</h5>
+                        <p class="card-text">Giá: $190.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\images\phukien\pk2.jpeg" class="card-img-top" alt="Hình ảnh sản phẩm 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tai nghe Apple</h5>
+                        <p class="card-text">Giá: $20.990.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\images\phukien\pk3.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cáp sạt nhanh</h5>
+                        <p class="card-text">Giá: $490.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\images\phukien\pk5.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tai nghe có dây</h5>
+                        <p class="card-text">Giá: $190.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tablet" class="container my-4">
+        <h2>Tablet</h2>
+        <p>Thông tin chi tiết về các sản phẩm.</p>
+        <!-- Nội dung phần Table -->
+
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="\Images\images\img_sp\10_Ipad.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 1" style="height:250px">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SS Galaxy Tab S9 FE</h5>
+                        <p class="card-text">Giá: $6.589.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="~/Images/images/img_sp/12_ipad.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">IPad Redmi Pad</h5>
+                        <p class="card-text">Giá: $4.590.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="~/Images/images/img_sp/14_ipad.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SS Galaxy Tab S9</h5>
+                        <p class="card-text">Giá: $9.590.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card bg-dark text-white">
+                    <img src="~/Images/images/img_sp/16_ipad.jpg" class="card-img-top" alt="Hình ảnh sản phẩm 4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">IPad Apple A5</h5>
+                        <p class="card-text">Giá: $11.990.000</p>
+                        <button class="btn btn-primary">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p></p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
